@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto:wght@300;400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------------------------------ */
+/* WRITE YOUR CSS HERE :) */
+/* ------------------------------------ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f6f8;
+    color: #2c2c2c;
+    line-height: 1.6;
+}
+
+#main-header {
+    background: linear-gradient(180deg, #1a2b3e, #162230);
+    color: #ffffff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+#main-header h1 {
+    font-family: 'Orbitron', sans-serif; 
+    font-size: 2.4rem;
+    margin-bottom: 10px;
+}
+
+#main-header p {
+    font-size: 1rem;
+    color: #b9d6f2;
+}
+
+nav {
+    background-color: #2f353b;
+    text-align: center;
+}
+
+.navigation {
+    list-style: none;
+    padding: 12px 0;
+}
+
+
+.navigation li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #cfd8e3;
+    font-size: 0.9rem;
+    padding: 8px 16px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.navigation a:hover {
+    background-color: #1e90ff;
+    color: #ffffff;
+}
+
+
+.container {
+    max-width: 900px; 
+    margin: 40px auto; 
+    padding: 0 20px;
+}
+
+
+section {
+    margin-bottom: 50px;
+}
+
+section h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.6rem;
+    color: #1b3a57;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #2b6cdc;
+}
+
+section p {
+    margin-bottom: 15px;
+    font-size: 0.95rem;
+}
+
+
+.highlight {
+    background-color: #e9f2ff;
+    border-left: 4px solid #2b78ff;
+    padding: 12px 15px;
+    font-style: italic;
+}
+
+
+.tool-card {
+    background-color: #ffffff;
+    border-radius: 6px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+}
+
+.tool-card h3 {
+    font-family: 'Orbitron', sans-serif;
+    color: #2ca24f;
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+}
+
+.tool-card p {
+    font-size: 0.9rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+table tr {
+    transition: background-color 0.3s ease;
+}
+
+tbody tr:hover {
+    background-color: #d9ecff;
+    cursor: pointer;
+}
+
+thead {
+    background-color: #1b3a57;
+    color: #ffffff;
+}
+
+th,
+td {
+    padding: 12px 15px;
+    text-align: left;
+    font-size: 0.9rem;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f6fa;
+}
+
+footer {
+    background-color: #1a2b3e;
+    color: #cfd8e3;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.85rem;
+    margin-top: 60px;
+}
